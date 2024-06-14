@@ -92,6 +92,7 @@ public class FeaturesControllers {
 	@GetMapping("/addStringElement")
 	public List<String> addStringElement() {
 		return arrayFeature.addStringElement();
+		
 	}
 	
 	@GetMapping("/printElementFromList")
@@ -103,5 +104,5 @@ public class FeaturesControllers {
 	public List<String> elementWithS(){
 		return arrayFeature.printElentWithS();
 	}
-
+  
 }
